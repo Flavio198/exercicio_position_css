@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+article#exercicio1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: darkgrey;
+}
+
+article#exercicio2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+
+div#blue {
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+  position: relative;
+  top: calc(50vh - 250px);
+  left: calc(50vw - 250px);
+  right: calc(50vw - 250px);
+  bottom: calc(50vh - 250px);
+}
+
+div#red {
+  height: 400px;
+  width: 400px;
+  background-color: red;
+  position: absolute;
+  top: calc(50% - 200px);
+  left: calc(50% - 200px);
+  right: calc(50% - 200px);
+  bottom: calc(50% - 200px);
+}
+
+div#black {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  right: calc(50% - 150px);
+  bottom: calc(50% - 150px);
+}
+
+div#green {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  right: calc(50% - 100px);
+  bottom: calc(50% - 100px);
+}
+
+div#yellow {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: calc(50% - 50px);
+  left: calc(50% - 50px);
+  right: calc(50% - 50px);
+  bottom: calc(50% - 50px);
+}
